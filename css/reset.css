@@ -123,6 +123,10 @@ table {
   border-spacing: 0;
 }
 
-input:focus{
-  outline:none;
+input:focus {
+  outline: none;
+}
+
+a {
+  color: #2e363e;
 }
