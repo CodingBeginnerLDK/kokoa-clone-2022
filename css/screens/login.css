@@ -1,5 +1,30 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 90%;
+}
+.login_page {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.login_page::after {
+  height: 95.5vh;
+  background: url("https://w.namu.la/s/be49991f81df850d2cdc7070516d0a05f003190eef67ebcba6231cd8b7421a14c9e973e424a5ff1ef6980f23942540b059a248f58eb0ca1e5165e9eef4ef9015d768cd36c9ab64fdf81528f84418c3726e8fef75bd9f9d15e9757fe3f2fd161b")
+    no-repeat center;
+  opacity: 0.7 !important;
+  top: 0;
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+  content: "";
+  width: 100%;
+}
+
 .welcome-header {
-  margin: 90px 0px;
+  margin: 40px 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -8,13 +33,13 @@
 }
 
 .welcome-header__title {
-  margin-bottom: 25px;
+  margin-top: 35px;
   font-size: 25px;
 }
 
 .welcome-header__text {
   width: 60%;
-  opacity: 0.5;
+  margin-top: 30px;
 }
 
 #login-form {
@@ -25,8 +50,11 @@
 #login-form input {
   padding: 15px 0px;
   border: none;
+  outline: none;
   font-size: 18px;
   margin-bottom: 25px;
+  background-color: transparent;
+  font-weight: 550;
 }
 
 #login-form input:not([type="submit"], [type="button"]) {
@@ -52,4 +80,7 @@
   text-decoration: none;
   color: inherit;
   font-size: 14px;
+  color: white;
+  background-color: black;
+  padding: 10px;
 }
