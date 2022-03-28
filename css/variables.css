@@ -1,5 +1,6 @@
 :root {
   --yellow: #fae100;
+  --img_url: "http://newsimg.hankookilbo.com/2019/08/12/201908121231753072_1.jpg";
   --horizontal-space: 25px;
-  --main-border : 1px solid rgba(0,0,0,0.3);
+  --main-border: 1px solid rgba(0, 0, 0, 0.3);
 }

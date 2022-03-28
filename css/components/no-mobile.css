@@ -3,7 +3,9 @@
   z-index: 99;
   height: 100vh;
   width: 100vw;
-  background-color: var(--yellow);
+  background: url("http://newsimg.hankookilbo.com/2019/08/12/201908121231753072_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;

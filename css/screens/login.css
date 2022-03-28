@@ -11,7 +11,7 @@ body {
   z-index: 1;
 }
 .login_page::after {
-  height: 95.5vh;
+  height: 100vh;
   background: url("https://w.namu.la/s/be49991f81df850d2cdc7070516d0a05f003190eef67ebcba6231cd8b7421a14c9e973e424a5ff1ef6980f23942540b059a248f58eb0ca1e5165e9eef4ef9015d768cd36c9ab64fdf81528f84418c3726e8fef75bd9f9d15e9757fe3f2fd161b")
     no-repeat center;
   opacity: 0.7 !important;
